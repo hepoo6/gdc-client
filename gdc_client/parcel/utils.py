@@ -58,7 +58,7 @@ def get_pbar(file_id, maxval, start_val=0):
             FileTransferSpeed(),
             " ",
         ],
-        initial_value=start_val,
+#         initial_value=start_val,
         maxval=maxval,
         fd=sys.stdout,
     )
